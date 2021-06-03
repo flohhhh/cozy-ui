@@ -26131,7 +26131,7 @@ html {
   .Tile-title--3gbq- {
     height: 1rem;
     font-weight: normal;
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
   }
   .Tile-title--3gbq-,
   .Tile-developer--2GOfB,
@@ -26154,6 +26154,18 @@ html {
 .AppTile-icon--default--1tjiF {
   height: 100%;
   padding: 0 0.5em;
+}
+.AppTile-icon-maintenance--2VOvO {
+  position: absolute;
+  bottom: 6px;
+  left: 40px;
+  border: 2px solid var(--primaryContrastTextColor);
+  border-radius: 50%;
+  background: var(--primaryContrastTextColor);
+}
+.AppTile-container-maintenance--u1a1M {
+  filter: grayscale(1);
+  opacity: 0.64;
 }
 
 .Sections__section--2onYy {
